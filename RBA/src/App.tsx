@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import SignIn from "./pages/SignIn";
 import Reg from "./pages/Reg"
+import Enf from "./pages/Enf";
 function App() {
   return (
     <>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/reg" element={<Reg />}></Route>
+          <Route path="*" element={<Enf/>}></Route>
         </Routes>
       </Router>
     </>
