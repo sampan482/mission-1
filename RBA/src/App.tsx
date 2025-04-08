@@ -16,7 +16,8 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/signin" element={<SignIn />}></Route>
           <Route path="/reg" element={<Reg />}></Route>
-          <Route path="*" element={<Enf/>}></Route>
+          <Route path="*" element={<Enf />}></Route>
+          R
         </Routes>
       </Router>
     </>
